@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>My cat's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+    function hideURLbar() { window.scrollTo(0, 1); }
+    </script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <style>            
+        html,body {margin:0;padding:0;
+                    }            
+        #mainContainer {                
+            margin:0 auto;
+            position: relative;            
+        }            
+        #left {                
+            width:20%;
+            height:100%;
+            /*background: #ccffff;*/
+           /* position: absolute;*/
+            top:0;
+            left:0;                         
+        }                  
+        #right{
+            width:80%;
+            height:100%;
+            /*background: #ffcccc;*/
+            position: absolute;
+            top:0;
+            right:0;
+        }    
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="mainContainer">
+        <div id="left" class="sidebar">
+            <div class="sidebar_top">
+                <div align="center"><mycat>My Cute cat</mycat></div>
+                <br>
+                <br>
+                <br>
+                <div align="center"><img src="../Resource/Image/cat.jpg"></div>
+            </div>
+        </div>
+        <div id="right" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="content">
+                <div class="details_header">
+                    <ul>
+                        <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+                        <li><a href="./Experience.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Experience</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3 class="clr clr5">Experience</h3>
+                    <div class="item_detail">
+                        <h4>Adopted by my master<span>Mar 2022 – Present</span></h4>
+
+                        <img src="../Resource/Image/eat.jpg" height="408" width="612">
+                        <p>• My master prepares the best food and water for me!.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="copywrite">
+                    <p>© 2022 Mr.Cat</p>
+                    <p>Last update: Oct. 10, 2022</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
